@@ -4,7 +4,7 @@
 <</Kids[ 3 0 R  4 0 R  5 0 R  6 0 R  7 0 R  8 0 R  9 0 R  10 0 R  11 0 R  12 0 R  13 0 R  14 0 R ]/Type/Pages/Count 12>>
 endobj
 2 0 obj
-<</Title(ScanNet: Richly-Annotated 3D Reconstructions of Indoor Scenes)/Producer(PyPDF2)/Author(Angela Dai, Angel X. Chang, Manolis Savva, Maciej Halber, Thomas Funkhouser, Matthias Niessner)/Subject(2017 IEEE Conference on Computer Vision and Pattern Recognition)/ModDate(D:20221021114924+08'00')>>
+<</Title(ScanNet: Richly-Annotated 3D Reconstructions of Indoor Scenes)/Producer(PyPDF2)/Author(Angela Dai, Angel X. Chang, Manolis Savva, Maciej Halber, Thomas Funkhouser, Matthias Niessner)/Subject(2017 IEEE Conference on Computer Vision and Pattern Recognition)/ModDate(D:20221105111517+08'00')>>
 endobj
 3 0 obj
 <</Parent 1 0 R /Rotate 0/Type/Page/Contents 16 0 R /Resources<</XObject<</x8 17 0 R /x6 20 0 R /x12 23 0 R /R49 26 0 R /x10 28 0 R >>/ExtGState<</s9 31 0 R /s11 34 0 R /a0<</CA 1/ca 1>>/R35 37 0 R /s5 38 0 R /s7 41 0 R >>/Font<</F2 44 0 R /F1 45 0 R /R38 46 0 R /R36 50 0 R /R46 54 0 R /R44 58 0 R /R42 61 0 R /R40 65 0 R >>/ProcSet[/Text/ImageC/ImageB/PDF/ImageI]/ColorSpace<</R48 27 0 R >>>>/MediaBox[ 0 0 612 792]/Annots[ 68 0 R  69 0 R  70 0 R  71 0 R  72 0 R  73 0 R  74 0 R  75 0 R  76 0 R  77 0 R  78 0 R  79 0 R  80 0 R  81 0 R  82 0 R  83 0 R  84 0 R  85 0 R  86 0 R  87 0 R  88 0 R  89 0 R  90 0 R  480 0 R  481 0 R  487 0 R  488 0 R  492 0 R  496 0 R  497 0 R  500 0 R  501 0 R  505 0 R  506 0 R  510 0 R  514 0 R  515 0 R  519 0 R  523 0 R  528 0 R  529 0 R  532 0 R  533 0 R  537 0 R  541 0 R  542 0 R  545 0 R  546 0 R  550 0 R  551 0 R  554 0 R  555 0 R  559 0 R  560 0 R  563 0 R  564 0 R  568 0 R  569 0 R  573 0 R  574 0 R  582 0 R  583 0 R  587 0 R  588 0 R  591 0 R  592 0 R  596 0 R  597 0 R  600 0 R  601 0 R  605 0 R  606 0 R  609 0 R  610 0 R  613 0 R  614 0 R  617 0 R  618 0 R  621 0 R  622 0 R  626 0 R  627 0 R  631 0 R  632 0 R  635 0 R  636 0 R  639 0 R  640 0 R  643 0 R  644 0 R  647 0 R  648 0 R  651 0 R  652 0 R  656 0 R  657 0 R  660 0 R  661 0 R  664 0 R  665 0 R  668 0 R  669 0 R  673 0 R  674 0 R  679 0 R  680 0 R  683 0 R  684 0 R  689 0 R  690 0 R  694 0 R  695 0 R  704 0 R  705 0 R  717 0 R  718 0 R  1926 0 R  1932 0 R  1923 0 R  2427 0 R  2428 0 R  2465 0 R  3112 0 R  3113 0 R ]>>
@@ -28,7 +28,7 @@ endobj
 <</Parent 1 0 R /Rotate 0/Type/Page/Contents 303 0 R /Resources<</ExtGState<</R35 37 0 R >>/Font<</R181 207 0 R /R144 92 0 R /F1 304 0 R /R38 46 0 R /R210 226 0 R /R36 50 0 R /R46 54 0 R /R208 243 0 R /F2 305 0 R >>/ProcSet[/ImageC/Text/PDF/ImageI/ImageB]>>/MediaBox[ 0 0 612 792]/Annots[ 306 0 R  307 0 R  308 0 R  309 0 R  310 0 R  311 0 R  312 0 R  313 0 R  314 0 R  315 0 R  316 0 R  317 0 R  318 0 R  1935 0 R  1936 0 R  1941 0 R  1942 0 R  1945 0 R  1946 0 R  1950 0 R  1951 0 R  1956 0 R  1957 0 R  1961 0 R  1962 0 R  1966 0 R  1967 0 R  1970 0 R  1971 0 R  1977 0 R  1978 0 R  1981 0 R  1982 0 R  1985 0 R  1986 0 R  1989 0 R  1990 0 R  1993 0 R  1994 0 R  1998 0 R  1999 0 R  2006 0 R  2007 0 R  2012 0 R  2013 0 R  2017 0 R  2018 0 R  2023 0 R  2024 0 R  2028 0 R  2029 0 R  2032 0 R  2033 0 R  2036 0 R  2037 0 R  2040 0 R  2041 0 R  2044 0 R  2045 0 R  2048 0 R  2049 0 R  2052 0 R  2053 0 R  2056 0 R  2057 0 R  2062 0 R  2063 0 R  2066 0 R  2067 0 R  2070 0 R  2071 0 R  2074 0 R  2075 0 R  2078 0 R  2079 0 R  2082 0 R  2083 0 R  2086 0 R  2087 0 R  2092 0 R  2093 0 R  2096 0 R  2097 0 R  2100 0 R  2101 0 R  2106 0 R  2107 0 R  2111 0 R  2112 0 R  2116 0 R  2117 0 R  2125 0 R  2126 0 R  2133 0 R  2134 0 R  2141 0 R  2142 0 R  2145 0 R  2146 0 R  2149 0 R  2150 0 R  2153 0 R  2154 0 R  2157 0 R  2158 0 R  2163 0 R  2164 0 R  2168 0 R  2169 0 R  2172 0 R  2173 0 R  2276 0 R  2277 0 R  2283 0 R  2284 0 R  2289 0 R  2290 0 R  2296 0 R  2297 0 R  2302 0 R  2303 0 R  2307 0 R  2308 0 R  2313 0 R  2314 0 R  2318 0 R  2319 0 R  2325 0 R  2326 0 R  2329 0 R  2330 0 R  2333 0 R  2334 0 R  3156 0 R  3157 0 R ]>>
 endobj
 10 0 obj
-<</Parent 1 0 R /Rotate 0/Type/Page/Contents 319 0 R /Resources<</ExtGState<</R35 37 0 R >>/Font<</R210 226 0 R /R298 320 0 R /R218 240 0 R /R208 243 0 R /F2 324 0 R /F1 325 0 R /R38 46 0 R /R46 54 0 R /R36 50 0 R /R300 326 0 R >>/ProcSet[/ImageC/Text/PDF/ImageI/ImageB]>>/MediaBox[ 0 0 612 792]/Annots[ 330 0 R  331 0 R  332 0 R  333 0 R  334 0 R  335 0 R  336 0 R  337 0 R  338 0 R  339 0 R  340 0 R  2337 0 R  2338 0 R  2341 0 R  2342 0 R  2346 0 R  2347 0 R  2351 0 R  2352 0 R  2356 0 R  2357 0 R  2360 0 R  2361 0 R  2364 0 R  2365 0 R  2368 0 R  2369 0 R  2373 0 R  2374 0 R  2377 0 R  2378 0 R  2381 0 R  2382 0 R  2385 0 R  2386 0 R  2391 0 R  2392 0 R  2395 0 R  2396 0 R  2400 0 R  2401 0 R  2406 0 R  2407 0 R  2410 0 R  2411 0 R  2414 0 R  2415 0 R ]>>
+<</Parent 1 0 R /Rotate 0/Type/Page/Contents 319 0 R /Resources<</ExtGState<</R35 37 0 R >>/Font<</R210 226 0 R /R298 320 0 R /R218 240 0 R /R208 243 0 R /F2 324 0 R /F1 325 0 R /R38 46 0 R /R46 54 0 R /R36 50 0 R /R300 326 0 R >>/ProcSet[/ImageC/Text/PDF/ImageI/ImageB]>>/MediaBox[ 0 0 612 792]/Annots[ 330 0 R  331 0 R  332 0 R  333 0 R  334 0 R  335 0 R  336 0 R  337 0 R  338 0 R  339 0 R  340 0 R  2337 0 R  2338 0 R  2341 0 R  2342 0 R  2346 0 R  2347 0 R  2351 0 R  2352 0 R  2356 0 R  2357 0 R  2360 0 R  2361 0 R  2364 0 R  2365 0 R  2368 0 R  2369 0 R  2373 0 R  2374 0 R  2377 0 R  2378 0 R  2381 0 R  2382 0 R  2391 0 R  2392 0 R  2395 0 R  2396 0 R  2400 0 R  2401 0 R  2406 0 R  2407 0 R  2410 0 R  2411 0 R  2414 0 R  2415 0 R  2386 0 R  2385 0 R ]>>
 endobj
 11 0 obj
 <</Parent 1 0 R /Rotate 0/Type/Page/Contents 341 0 R /Resources<</ExtGState<</R35 37 0 R >>/Font<</R36 50 0 R /R46 54 0 R /F1 342 0 R /F2 343 0 R /R38 46 0 R >>/ProcSet[/ImageC/Text/PDF/ImageI/ImageB]>>/MediaBox[ 0 0 612 792]/Annots[ 344 0 R  345 0 R  346 0 R  347 0 R  348 0 R  349 0 R  350 0 R  351 0 R  352 0 R  353 0 R  354 0 R  355 0 R  356 0 R  357 0 R  358 0 R  359 0 R  360 0 R  361 0 R  362 0 R  363 0 R  364 0 R  365 0 R  366 0 R  367 0 R  368 0 R  369 0 R  370 0 R  371 0 R  372 0 R  373 0 R  374 0 R  375 0 R  376 0 R  377 0 R  378 0 R  379 0 R  380 0 R ]>>
@@ -10092,10 +10092,10 @@ endobj
 <</Type/ExtGState/BM/Multiply/CA 1/ca 1/AIS false>>
 endobj
 579 0 obj
-<</ICV(1CD5A4E9463A4D8A9207A17D160D3A88)/TYPE(TEXT)>>
+<</ICV(9CD2F2A0841F4A3D8D41C912F2EB8D33)/TYPE(TEXT)>>
 endobj
 580 0 obj
-<</DocICV 579 0 R /LastModified(D:20221021114924+08'00')>>
+<</DocICV 579 0 R /LastModified(D:20221105111517+08'00')>>
 endobj
 581 0 obj
 <</WPS_ICV 580 0 R >>
@@ -16441,10 +16441,10 @@ endobj
 <</Type/ExtGState/BM/Multiply/CA 1/ca 1/AIS false>>
 endobj
 2385 0 obj
-<</Type/Annot/Subtype/Underline/P 10 0 R /F 4/M(D:20221014155911+08'00')/HighDpi true/QuadPoints[ 84.9648 553.384 251.489 553.384 84.9648 545.314 251.489 545.314]/Rect[ 83.4648 543.814 252.989 554.884]/T(˛ˇçu_◊e∞)/Subj(Underline)/CreationDate(D:20221014155911+08'00')/C[ 1 1 0]/CA 1/NM({7e4fb7d2-89e3-4e13-ba93-e1365402267b})/Popup 2386 0 R /AP<</N 2387 0 R >>/Contents(˛ˇ 3 D  j!Wãh¿}"W˙Q∆`'Ä˝0  NŒ   S h a p e N e t C o r e  h¿}"   S c a n N e t  [˘åavÑg è—êªj!Wã0  v~Rk‘àhy:h¿}"R0vÑj!Wã[˘gÂã‚S:WﬂvÑ^sWG[ûOãQ∆xn^¶0)>>
+<</Type/Annot/Subtype/Underline/P 10 0 R /F 4/M(D:20221104220609+08'00')/HighDpi true/QuadPoints[ 84.9648 553.384 251.489 553.384 84.9648 545.314 251.489 545.314]/Rect[ 83.4648 543.814 252.989 554.884]/T(˛ˇçu_◊e∞)/Subj(Underline)/CreationDate(D:20221014155911+08'00')/C[ 1 1 0]/CA 1/NM({7e4fb7d2-89e3-4e13-ba93-e1365402267b})/Popup 2386 0 R /AP<</N 2387 0 R >>/Contents(˛ˇ 3 D  j!Wãh¿}"W˙Q∆`'Ä˝0  NŒ   S h a p e N e t C o r e  h¿}"   S c a n N e t  [˘åavÑg è—êªj!Wã0  v~Rk‘àhy:h¿}"R0vÑj!Wã[˘gÂã‚S:WﬂvÑ^sWG[ûOãQ∆xn^¶0)>>
 endobj
 2386 0 obj
-<</Type/Annot/Subtype/Popup/P 10 0 R /F 4/M(D:20221014155911+08'00')/Rect[ 493.667 450.084 679.867 553.384]/Open false/CreationDate(D:20221014155911+08'00')/Parent 2385 0 R >>
+<</Type/Annot/Subtype/Popup/P 10 0 R /F 4/M(D:20221104220609+08'00')/Rect[ 493.667 450.084 679.867 553.384]/Open false/CreationDate(D:20221014155911+08'00')/Parent 2385 0 R >>
 endobj
 2387 0 obj
 <</Type/XObject/Subtype/Form/Resources<</ExtGState<</X 2390 0 R >>>>/BBox[ 83.4648 543.814 252.989 554.884]/Length 55/Filter/FlateDecode>>stream
@@ -18823,14 +18823,14 @@ endobj
 <</Type/ExtGState/BM/Multiply/CA 1/ca 1/AIS false>>
 endobj
 3156 0 obj
-<</Type/Annot/Subtype/Highlight/P 9 0 R /F 4/M(D:20221021113430+08'00')/HighDpi true/QuadPoints[ 69.6738 408.296 185.4 408.296 69.6738 398.466 185.4 398.466]/Rect[ 69.6738 398.466 185.4 408.296]/T(˛ˇçu_◊e∞)/Subj(Highlight)/CreationDate(D:20221021113430+08'00')/C[ 1 1 0.517647]/CA 1/NM({5ffa24f5-abb5-4be8-9f91-6734115801c0})/Popup 3157 0 R /AP<</N 3158 0 R >>/Contents(˛ˇãÌNIOS} h{~0Ou\( S c a n N e tepcnñ∆ˇ\\ãÌNIRRrN˚R°bi\\UR0 3 DˇvÓhf/òÑmKkœN*OS} vÑãÌNI[˘åah{~0ôñQHubepcnˇêè«c–S÷[POSyÔ0^vè€àLeÀèl_óR0ã≠~√ñ∆TåmKã’ñ∆ˇ_óR0 2 0N*[˘åa|{h{~R†N\nN N*|{vÑzzïÚzzïÙˇQvk!c–Q˙NÜN yÕh9cnOS} êªWﬂS`u\(ry_ÅòÑmKW:foN-N ROS} |{h{~vÑQ~‹è€àLã≠~√ˇg T[ûs∞N≈W˙NéQ‡OUèìQeˇòÑmK~Ÿ[ö 3 DW:foN-b@g	SÔâ¡àhóbOS} vÑãÌNIh{~0)>>
+<</Type/Annot/Subtype/Highlight/P 9 0 R /F 4/M(D:20221021113430+08'00')/HighDpi true/QuadPoints[ 69.6738 408.296 185.4 408.296 69.6738 398.466 185.4 398.466]/Rect[ 69.6738 398.466 185.4 408.296]/T(˛ˇçu_◊e∞)/Subj(Highlight)/CreationDate(D:20221021113430+08'00')/C[ 0.666667 1 1]/CA 1/NM({5ffa24f5-abb5-4be8-9f91-6734115801c0})/Popup 3157 0 R /AP<</N 3158 0 R >>/Contents(˛ˇãÌNIOS} h{~0Ou\( S c a n N e tepcnñ∆ˇ\\ãÌNIRRrN˚R°bi\\UR0 3 DˇvÓhf/òÑmKkœN*OS} vÑãÌNI[˘åah{~0ôñQHubepcnˇêè«c–S÷[POSyÔ0^vè€àLeÀèl_óR0ã≠~√ñ∆TåmKã’ñ∆ˇ_óR0 2 0N*[˘åa|{h{~R†N\nN N*|{vÑzzïÚzzïÙˇQvk!c–Q˙NÜN yÕh9cnOS} êªWﬂS`u\(ry_ÅòÑmKW:foN-N ROS} |{h{~vÑQ~‹è€àLã≠~√ˇg T[ûs∞N≈W˙NéQ‡OUèìQeˇòÑmK~Ÿ[ö 3 DW:foN-b@g	SÔâ¡àhóbOS} vÑãÌNIh{~0)>>
 endobj
 3157 0 obj
-<</Type/Annot/Subtype/Popup/P 9 0 R /F 4/M(D:20221021113430+08'00')/Rect[ 188.816 332.128 375.016 435.428]/Open true/CreationDate(D:20221021113430+08'00')/Parent 3156 0 R >>
+<</Type/Annot/Subtype/Popup/P 9 0 R /F 4/M(D:20221021113430+08'00')/Rect[ 188.816 332.128 375.016 435.428]/Open false/CreationDate(D:20221021113430+08'00')/Parent 3156 0 R >>
 endobj
 3158 0 obj
-<</Type/XObject/Subtype/Form/BBox[ 69.6738 398.466 185.4 408.296]/Matrix[ 1 0 0 1 -69.6738 -398.466]/Resources<</ExtGState<</X 3161 0 R >>/ProcSet[/PDF]>>/Group<</S/Transparency/Type/Group>>/Length 68/Filter/FlateDecode>>stream
-xú”èPH/Ê2T0T0–35¥P(JÁ2≥‘337Q01∞–3≤4S»Â2¥0’Cs†|cK=3™!ê¡ï∆ :ò
+<</Type/XObject/Subtype/Form/BBox[ 69.6738 398.466 185.4 408.296]/Matrix[ 1 0 0 1 -69.6738 -398.466]/Resources<</ExtGState<</X 3162 0 R >>/ProcSet[/PDF]>>/Group<</S/Transparency/Type/Group>>/Length 66/Filter/FlateDecode>>stream
+xú”èPH/Ê2–333W0¬¢t.3K=3s=#K3Ö\.CS=? 7∂¥–31Ò°\i\ <Œ#
 endstream
 endobj
 3159 0 obj
@@ -18840,6 +18840,26 @@ endobj
 <</Type/ExtGState/BM/Multiply/CA 1/ca 1/AIS false>>
 endobj
 3161 0 obj
+<</Type/ExtGState/BM/Multiply/CA 1/ca 1/AIS false>>
+endobj
+3162 0 obj
+<</Type/ExtGState/BM/Multiply/CA 1/ca 1/AIS false>>
+endobj
+3165 0 obj
+<</Type/XObject/Subtype/Form/BBox[ 50.2287 424.938 286.709 454.926]/Matrix[ 1 0 0 1 -50.2287 -424.938]/Resources<</ExtGState<</X 3169 0 R >>/ProcSet[/PDF]>>/Group<</S/Transparency/Type/Group>>/Length 120/Filter/FlateDecode>>stream
+xúEŒ¡√0Ö·ªß`ä∆∞I&hzp/Ì˛RqìêõıIÔ«èˆo©PÅ‡≥§* ]–õ¬ª4S‰)ÛQ¥æ‰%º ≥tBfdtgI$a&pGÛ◊$·Ï¥◊òë»¢Sá«KRÊ--˛»vî˛£ÑU˙ƒ1.Ã
+endstream
+endobj
+3166 0 obj
+<</Type/ExtGState/BM/Multiply/CA 1/ca 1/AIS false>>
+endobj
+3167 0 obj
+<</Type/ExtGState/BM/Multiply/CA 1/ca 1/AIS false>>
+endobj
+3168 0 obj
+<</Type/ExtGState/BM/Multiply/CA 1/ca 1/AIS false>>
+endobj
+3169 0 obj
 <</Type/ExtGState/BM/Multiply/CA 1/ca 1/AIS false>>
 endobj
 xref
@@ -21321,7 +21341,7 @@ xref
 0002349800 00000 n
 0002350123 00000 n
 0002350540 00000 n
-2478 684
+2478 692
 0002351508 00000 n
 0002351531 00000 n
 0002351554 00000 n
@@ -22002,12 +22022,20 @@ xref
 0002404661 00000 n
 0002404732 00000 n
 0002405478 00000 n
-0002405671 00000 n
-0002405997 00000 n
-0002406068 00000 n
-0002406139 00000 n
+0002405672 00000 n
+0002405996 00000 n
+0002406067 00000 n
+0002406138 00000 n
+0002406209 00000 n
+0000000000 00000 n
+0000000000 00000 n
+0002406280 00000 n
+0002406661 00000 n
+0002406732 00000 n
+0002406803 00000 n
+0002406874 00000 n
 trailer
-<</Root 15 0 R /Info 2 0 R /Size 3162/ID[<044697AB4DBED79887587F8007044700><E7DDB28E3E17EFBE6C3B18EF38807DC0>]>>
+<</Root 15 0 R /Info 2 0 R /Size 3170/ID[<044697AB4DBED79887587F8007044700><146FAB04FD1B2CB48ABB0BC3ECFBA3F6>]>>
 startxref
-2406210
+2406945
 %%EOF
