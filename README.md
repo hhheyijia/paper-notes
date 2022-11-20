@@ -2,8 +2,9 @@
 ### 2022.11
 
 - [preprint]**Content-Based Search for Deep Generative Models** [[paper](origin/Content-Based Search for Deep Generative Models.pdf)] [[note](notes/Content-Based.md)] [[github](https://github.com/hhheyijia/paper-notes)] 
-- We have introduced the problem of content-based retrieval for deep generative image models, whose goal is to help users find, explore, and share new generative models more easily.
-- We demonstrate that our model search retrieves suitable models for image editing and reconstruction, few-shot transfer learning, and latent space interpolation.
+  - We have introduced the problem of content-based retrieval for deep generative image models, whose goal is to help users find, explore, and share new generative models more easily.
+  - We demonstrate that our model search retrieves suitable models for image editing and reconstruction, few-shot transfer learning, and latent space interpolation.
+
 
 ### 2022.10
 
