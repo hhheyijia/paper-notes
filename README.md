@@ -1,5 +1,19 @@
 # paper-notes
+### 2022.12
+
+
+
 ### 2022.11
+
+- [SIGGRAPH'21] **TreePartNet: Neural Decomposition of Point Clouds for 3D Tree Reconstruction** [[paper](<origin/TreePartNet.pdf>)] [[note](notes/TreePartNet.md)] [[slide](notes/TreePartNet.pptx)] [[github](https://github.com/hhheyijia/paper-notes)]
+
+  - TreePartNet:  A neural network aimed at reconstructing tree geometry from point clouds obtained by scanning real trees.
+
+  - A prior-based supervised neural decomposition to learn a cylindrical representation of 3D trees even for incomplete or noisy point sets.
+
+  - A new combined reconstruction method for tree structures based on generalized cylinders and branching points.
+
+  - A geometry-aware graph clustering method based on a pairwise affinity network, which defines a new module, named Scaled Cosine Distance, inspired by the Transformer. 
 
 - [preprint]**Content-Based Search for Deep Generative Models** [[paper](origin/Content-Based Search for Deep Generative Models.pdf)] [[note](notes/Content-Based.md)] [[github](https://github.com/hhheyijia/paper-notes)] 
   - We have introduced the problem of content-based retrieval for deep generative image models, whose goal is to help users find, explore, and share new generative models more easily.
