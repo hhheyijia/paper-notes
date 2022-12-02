@@ -24,7 +24,7 @@ Efficiently and accurately representing, generating, and reconstructing tree geo
 
 Our approach constructs a generalized cylindrical representation based on the core idea of learning a neural decomposition with branching and joint semantics, where joint elements can connect the branches. Furthermore, our approach is based on the assumption that the local shape of branches is naturally cylindrical. Thus, we can partition the input point cloud into clusters that can be approximated by the generalized, parameterized cylinders. 我们的方法基于学习具有分支和联合语义的神经分解的核心思想构建了一个广义圆柱表示，其中联合元素可以连接分支。此外，我们的方法基于分支的局部形状自然为圆柱形的假设。因此，我们可以将输入点云划分为可以由广义参数化圆柱体近似的簇。
 
-![image-20221127203704059](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\main idea.png)
+![image-20221127203704059](TreePartNet images\main idea.png)
 
 图1. 从(a)原始扫描中有噪声且不完整的非结构化点集合开始，我们提出TreePartNet来寻找分支结构并创建圆柱形分解(b)。树的几何结构由广义圆柱体和光滑分支点(c)表示。最终，可以添加纹理和树叶来增强视觉吸引力(d)。在(e)中，我们从不同的视角展示了渲染版本。
 
@@ -66,7 +66,7 @@ The core idea of our algorithm is to decompose the point cloud into foliage, non
 
 #### Main steps
 
-![image-20221127220332772](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\main steps.png)
+![image-20221127220332772](TreePartNet images\main steps.png)
 
 图2. 从输入点云P (a)开始，我们首先使用一个语义分割模块来检测连接部分{Ji}（(b)中的红点）。同时，我们的神经网络将输入分解为一组小规模的簇{Ci } (e)，这些簇被自动合并成不重叠的分支{Bi } (d).然后，我们从分割后的分支中提取离散的骨骼部分(e)。通过使用关节骨架节点（红色表示），我们得到了一个完整的骨架（f），它由广义圆柱体表示，并转换为一个表面网格(g)。
 
@@ -78,7 +78,7 @@ The core idea of our algorithm is to decompose the point cloud into foliage, non
 
 In our approach, we first perform a semantic segmentation to indicate points to belong to either a branch or a junction point used later to combine the decomposed parts. 首先执行语义分割，以指明属于分支或稍后用于组合分解部分的连接点的点。Then, instead of directly detecting cylinders, our architecture first computes per-point features and then predicts the neural decomposition. 然后，不是直接检测圆柱体，我们的体系结构首先计算每个点的特征，然后预测神经分解。Our network architecture comprising of three modules is summarized in Fig. 3, where the top row shows the detection of junctions semantic segmentation module, and the other two processing the branches (the fine clustering module and pairwise affinity module). 我们的网络架构由三个模块组成，如图3所示，其中最上面一行是检测连接的语义分割模块，另外两个是处理分支的模块(精细聚类模块和成对亲和模块)。Thus, we propose a fine-to-coarse clustering approach by leveraging the ability of deep neural networks to learn features. 因此，我们提出了一种由细到粗的聚类方法，利用深度神经网络学习特征的能力。
 
-![image-20221127223614936](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\network.png)
+![image-20221127223614936](TreePartNet images\network.png)
 
 图3. 用于神经分解的网络架构：我们的网络的顶部分支(用绿色箭头表示)代表语义分割模块，它学习多尺度的逐点特征，以检测连接部分。其他两个分支(用橙色和蓝色箭头表示)是精细聚类模块和成对亲和模块。前者将局部上下文特征与点向特征向量连接，将输入分解为一组局部圆柱斑块，后者通过学习亲和矩阵将斑块合并。
 
@@ -118,41 +118,41 @@ In our approach, we first perform a semantic segmentation to indicate points to 
 
    该方法的核心是准确度量两个聚类Ci和Cj之间的相似性。我们将它们的相似性定义为:
 
-   ![image-20221128113153823](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\formula1.png)
+   ![image-20221128113153823](TreePartNet images\formula1.png)
 
    其中 α 是初始化为 α =−10 的标量权值，在训练过程中与其他网络参数一起学习。 α 也是模块名称中的“刻度”：缩放余弦距离。Dp 编码两个簇种子之间的欧氏(L2)距离，因为两个相似的簇的位置应该沿着一个分支靠近。Df 表示嵌入特征空间中的相似性。
 
    **Scaled Cosine Distance**缩放余弦距离：输入特征 Fin，输出特征 Fattention 是值的加权和，其中分配给每个值的注意力权重 A 由查询与相应键的缩放矩阵点积计算得出：
 
-   ![image-20221128152052253](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\formula2.png)
+   ![image-20221128152052253](TreePartNet images\formula2.png)
 
    注意权重捕获上下文信息并表征特征之间的语义亲和力。将初始的局部上下文特征作为输入特征 Fin = F3。然后，将 F3 送到多层感知器MLP以获得新的更高维特征 F6，它表示查询 Q 和密钥 K。因为只需要计算两者之间的相似性簇，即注意力权重，所以不使用值矩阵 V。之后使用L^2 -normalization 将 F6 中的每个特征向量缩放为单位长度。F6 中每对的点积是特征之间角度的余弦。简化计算，转换归一化的 F6 并使用矩阵乘法：
 
-   ![image-20221128153303361](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\formula3.png)
+   ![image-20221128153303361](TreePartNet images\formula3.png)
 
    最后，为了将特征相似度转换到概率空间，使用线性变换层来完成特征空间映射。提出了亲和损失来最小化预测亲和矩阵 M' 和地面真值矩阵 M 之间的重建误差。图4显示了基本事实和我们预测的亲和力矩阵的可视化。
 
-   ![image-20221128153455143](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\fig4.png)
+   ![image-20221128153455143](TreePartNet images\fig4.png)
 
 #### 4.3 Loss functions
 
 Our network training is supervised by an efficient loss function containing three components: junction semantic segmentation loss, fine clustering loss and affinity loss: 我们的网络训练由一个有效的损失函数监督，它包含三个组成部分:**连接语义分割损失、精细聚类损失和亲和力损失**:
 
-![image-20221128153646421](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\formula4.png)
+![image-20221128153646421](TreePartNet images\formula4.png)
 
 将**语义损失**定义为二元交叉熵损失函数:
 
-![image-20221128153753857](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\formula5.png)
+![image-20221128153753857](TreePartNet images\formula5.png)
 
 where yi indicates the ground-truth label, σ is the sigmoid function, and si ∈ S is the predicted score of our network.
 
 **精细聚类**模块为属于局部上下文的每个点pi预测一个分数，使用多重标签交叉熵来度量网络预测与ground-truth 标签дi之间的损失:
 
-![image-20221128154607662](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\formula6.png)
+![image-20221128154607662](TreePartNet images\formula6.png)
 
 对**亲和力损失**使用二元交叉熵损失来比较预测的亲和力矩阵 M' 和 ground-truth 矩阵 M：
 
-![image-20221128154842676](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\formula7and8.png)
+![image-20221128154842676](TreePartNet images\formula7and8.png)
 
 We set ω = 0.43,γ = 2 by default in our training task.
 
@@ -192,19 +192,19 @@ After neural decomposition, each point in the input point cloud is assigned to t
 
 1. Robustness.
 
-   ![image-20221128205702495](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\fig6.png)
+   ![image-20221128205702495](TreePartNet images\fig6.png)
 
    图 6. 对来自我们测试数据集的两个合成示例的评估，其中我们展示了分解和重建过程的逐步结果。 对于每个示例，从左到右，我们展示了输入点云、连接点检测、初始集群、合并集群、提取的骨架以及我们最终重建的纹理模型。
 
-   ![image-20221128210056905](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\fig7.png)
+   ![image-20221128210056905](TreePartNet images\fig7.png)
 
    图 7. 从真实数据重建树的几个结果。（使用具有缺失区域、噪声和稀疏性的低质量真实输入重建了几棵树） 从左到右：参考照片、输入点云、我们的树叶分割和分支分解、重建模型以及添加树叶和纹理的渲染结果。 (a)-(c) 中的输入点云分别通过使用 64、66、40 幅图像的多视图立体重建获得。
 
    We also evaluate the performance of the foliage segmentation network quantitatively with **precision, recall, accuracy, and F1 scores**:通过精度、召回率、准确性和F1分数定量评估叶分割网络的性能：
 
-   ![image-20221128210442759](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\formula9.png)
+   ![image-20221128210442759](TreePartNet images\formula9.png)
 
-   ![image-20221128210544730](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\fig8.png)
+   ![image-20221128210544730](TreePartNet images\fig8.png)
 
    图 8. 验证集的准确性、精确度、召回率和 F1 分数作为树叶分割训练时期的函数。
 
@@ -212,11 +212,11 @@ After neural decomposition, each point in the input point cloud is assigned to t
 
    The scaled cosine distance and focal loss play a crucial role in improving the prediction of the affinity matrix. 缩放余弦距离和焦距损失对改进亲和矩阵的预测起着至关重要的作用。
 
-   ![image-20221128211819014](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\fig9.png)
+   ![image-20221128211819014](TreePartNet images\fig9.png)
 
-   ![image-20221128211857475](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\table1and2.png)
+   ![image-20221128211857475](TreePartNet images\table1and2.png)
 
-   ![image-20221128212034377](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\fig10.png)
+   ![image-20221128212034377](TreePartNet images\fig10.png)
 
 #### 6.2  Comparison
 
@@ -224,21 +224,21 @@ After neural decomposition, each point in the input point cloud is assigned to t
 
    Rand Index (RI) and Normalized Mutual Information (NMI)
 
-   ![image-20221128215219688](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\fig11.png)
+   ![image-20221128215219688](TreePartNet images\fig11.png)
 
-   ![image-20221128215313754](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\table3.png)
+   ![image-20221128215313754](TreePartNet images\table3.png)
 
 2. Comparison to skeletonization methods. 与骨骼化方法的比较
 
-   ![image-20221128221138590](E:\hhhhhe\littleHe\study\paper-notes\notes\fig12.png)
+   ![image-20221128221138590](TreePartNet images\fig12.png)
 
    It demonstrates that the skeleton obtained by our TreePartNet is better to maintain the branching fidelity of trees.这说明我们的TreePartNet获得的骨架能够更好地保持树的分支保真度。
 
 3. Comparison to tree reconstruction methods. 与树重构方法的比较
 
-   ![image-20221128221545579](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\fig14.png)
+   ![image-20221128221545579](TreePartNet images\fig14.png)
 
-   ![image-20221128221610815](E:\hhhhhe\littleHe\study\paper-notes\notes\TreePartNet images\fig15.png)
+   ![image-20221128221610815](TreePartNet images\fig15.png)
 
 #### 6.3  Limitations
 
